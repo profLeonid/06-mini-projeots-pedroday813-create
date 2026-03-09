@@ -27,6 +27,6 @@ function calcularDesconto() {
         displayResultado.textContent = `Bom desconto: R$ ${valorFinal.toFixed(2)}`;
     } else {
         displayResultado.textContent = `Ótimo desconto: R$ ${valorFinal.toFixed(2)}`
-        displayResultado.textContent = 'dsadas'
+        
     }
 }
