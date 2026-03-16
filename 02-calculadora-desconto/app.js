@@ -6,6 +6,9 @@ function calcularDesconto() {
     const inputDesconto = document.getElementById('desconto');
     const displayResultado = document.getElementById('resultado');
 
+    resultado.classList.remove('pequeno', 'bom', 'otimo')
+
+
     // 2. Converte os valores para números
     const preco = parseFloat(inputPreco.value);
     const percentualDesconto = parseFloat(inputDesconto.value);
@@ -23,10 +26,13 @@ function calcularDesconto() {
     // 5. Lógica de exibição (Exemplo baseado no seu código)
     if (percentualDesconto <= 5) {
         displayResultado.textContent = `Pequeno desconto: R$ ${valorFinal.toFixed(2)}`;
+        resultado.classList.add('pequeno')
     } else if (percentualDesconto <= 10) {
         displayResultado.textContent = `Bom desconto: R$ ${valorFinal.toFixed(2)}`;
+        resultado.classList.add('bom')
     } else {
         displayResultado.textContent = `Ótimo desconto: R$ ${valorFinal.toFixed(2)}`
+        resultado.classList.add('otimo')
         
     }
 }

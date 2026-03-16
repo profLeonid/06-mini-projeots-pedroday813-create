@@ -123,3 +123,34 @@ footer p {
   text-align: center;
   padding: 1rem;
 }
+
+.resultado.baixo{
+  color: #fff;
+  background-color: #1e3a5f;
+  border-color: #1e3a5f;
+}
+.resultado.normal{
+  color: #fff;
+  background-color: #14532d;
+  border-color: #14532d;
+}
+.resultado.sobrepeso{
+  color: #fff;
+  background-color: #713f12;
+  border-color: #713f12
+}
+.resultado.obesidade1{
+  color: #fff;
+  background-color: #7f1d1d;
+  border-color: #7f1d1d;
+}
+.resultado.obesidade2{
+  color: #fff;
+  background-color: #6b0f0f;
+  border-color: #6b0f0f;
+}
+.resultado.obesidade3{
+  color: #fff;
+  background-color: #450a0a;
+  border-color: #450a0a;
+}
